@@ -10,7 +10,7 @@ end
 # ROUTE : {GET}/bot/unclosedProposals
 # RETURN : JSON of matière, unclosed proposals
 get '/bot/unclosedProposals' do
-  getUnclosedProposals
+  getUnclosedProposalsBot
 end
 
 # Envoie d'une proposition dans la table (proposition)
